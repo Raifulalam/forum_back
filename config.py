@@ -10,12 +10,12 @@ from bson.objectid import ObjectId
 import bson
 from root.static import G_ACCESS_EXPIRES, G_REFRESH_EXPIRES
 
-G_API_URL = "http://localhost:5000"
+G_API_URL = "https://forum-back-2-s7r4.onrender.com"
 
 # ℹ️ It is recommended to use environment variables for the secret key
 G_JWT_ACCESS_SECRET_KEY = "ABCDEFGHIJKLMN"
-LOCAL_MONGO_URI = "mongodb://localhost:27017"
-LOCAL_MONGO_DATABASE = "gla1"
+LOCAL_MONGO_URI = "mongodb+srv://mohammedalamcs22:I3hpBa4uiFBKoQr4@cluster1.bcphr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1"
+LOCAL_MONGO_DATABASE = "ForumData"
 
 ### Local DB
 MONGO_URI = LOCAL_MONGO_URI
